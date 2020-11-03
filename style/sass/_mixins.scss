@@ -1,0 +1,22 @@
+@mixin section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+@mixin font {
+    text-decoration: none;
+        font-size: 12px;
+        color: black;
+        font-family: sans-serif;
+        font-weight: 700;
+     
+}
+@mixin class {
+    margin-top: 1em;
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+      
+}
